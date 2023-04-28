@@ -7,7 +7,6 @@ const Announcements = () => {
   const [displayed, setDisplayed] = useState(true);
 
   return (
-    // TODO: displayed??
     displayed && (
       <Container
         fluid

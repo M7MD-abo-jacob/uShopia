@@ -89,7 +89,6 @@ const FiltersMenu = ({ handleClose = null, Filters }) => {
                   router.replace(router);
                 }}
               >
-                {/* TODO: translate all */}
                 all
               </Dropdown.Item>
               {Filters.categories.map((obj, index, list) => (

@@ -164,10 +164,10 @@ const CartComponent = () => {
 
 export default CartComponent;
 
-// TODO: do smth aboutthis
-
 async function handlePayment() {
-  const stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY);
+  const stripePromise = loadStripe(
+    "pk_test_51Mw3a3LsGFCylMCgAqZpBEVc7yvEmW2H2b2tEvZhWepTOYpxFI0qQEQnAjhDD0GHKvmGObgDmXpSUjpWrJCWMPPS00fHJ6o6RA"
+  );
   const products = store.getState().cart;
   // try {
   const stripe = await stripePromise;
@@ -178,12 +178,4 @@ async function handlePayment() {
     sessionId: data.stripeSession.id,
   });
   toast.success("payment successfull!");
-  // } catch (error) {
-  //   console.log("error:  ", error);
-  //   if (error.response?.status === 403) {
-  //     toast.error("use a VPN if you are in Syria ;)");
-  //   } else {
-  //     toast.error(error.message);
-  //   }
-  // }
 }
