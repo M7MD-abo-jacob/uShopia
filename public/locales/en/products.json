@@ -1,0 +1,15 @@
+{
+  "products_sup1": "browse available products",
+  "products_sup2": "the best online store with the best prices and services.",
+  "no_products_found": "No products Found! :(",
+  "filters": "Filters",
+  "filter_and_sort": "Filter and sort",
+  "category": "Category:",
+  "rating": "Rating:",
+  "sort": "Sort:",
+  "by_name_a": "by name (A-Z)",
+  "by_name_d": "by name (Z-A)",
+  "by_price_a": "by price (low to high)",
+  "by_price_d": "by price (high to low)",
+  "reset_filters": "Reset filters"
+}

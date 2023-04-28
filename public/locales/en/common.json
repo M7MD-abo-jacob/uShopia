@@ -1,0 +1,44 @@
+{
+  "brand": "uShopia",
+  "author": "Mohammad Kikhia",
+
+  "search_placeholder": "Search for products...",
+
+  "not_signed": "you are not signed in!",
+
+  "cart": "Cart",
+  "cart_items_count": "Cart items count",
+  "cart_items": "Items",
+  "cart_empty": "no items were added!",
+  "clear_all": "Clear all",
+  "summary": "Summary",
+  "summary_products": "Products",
+  "summary_shipping": "Shipping",
+  "summary_total": "Total amount",
+  "checkout": "Go to checkout",
+
+  "login": "Login",
+  "sign_up": "Sign up",
+  "language": "Language",
+  "dark_theme": "Dark theme",
+  "log_out": "Log out",
+
+  "to_top": "to top",
+
+  "home": "Home",
+  "shop": "Shop",
+  "about_us": "About us",
+  "customer_service": "Customer service",
+  "support_subtitle": "Immediate responses",
+
+  "lorem20": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptate ducimus quasi tempore.",
+
+  "links": "Links",
+  "copyright": "2023 copyrights:",
+  "rights": ", all rights reserved",
+
+  "announcement": "Super Deal! Free shipping for a limited time",
+
+  "cannot_do_that": "can not do that!",
+  "use_vpn": "use a VPN if you are in Syria ;)"
+}
